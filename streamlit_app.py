@@ -6,4 +6,5 @@ l=voc.shape[0]
 i=np.random.choice(range(l))
 word_fr=voc['Definition'].values[i]
 word_chi=voc['hanzi'].values[i]
-sti.write(word_fr+"hanzi"+wrd_chi)
+st.write(word_fr+"hanzi"+wrd_chi)
+st.button("refrech")
