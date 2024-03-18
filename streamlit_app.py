@@ -11,4 +11,4 @@ st.write(word_fr+"|"+word_chi+"|"+word_pin)
 st.button("refresh")
 indices=np.random.choice(l,size=4,replace=False)
 i=np.random.choice(indices)
-for i range(4)
+for i range(4):
