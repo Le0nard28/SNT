@@ -12,6 +12,6 @@ st.button("refresh")
 indices=np.random.choice(l,size=4,replace=False)
 j=np.random.choice(indices)
 word_fr=voc['Définition'].values[j]
-st.write("Traduis:"+word.fr)
+st.write("Traduis:"+word_fr)
 for i in range(4):
   st.button(voc["Hanzi"].values[indices[i]],on_clich=is_correct,args=[indices[i]])
